@@ -11,7 +11,7 @@ MQ135_PIN = 27          # GPIO pin for MQ135 digital output
 MQ9_PIN = 22            # GPIO pin for MQ9 digital output
 
 # Initialize the DHT sensor (DHT11)
-sensor = adafruit_dht.DHT11(board.D25)
+sensor = adafruit_dht.DHT11(board.D18)
 
 # Initialize the GPIO chip and lines
 chip = gpiod.Chip('gpiochip4')
